@@ -1,0 +1,89 @@
+    .book {
+        background-color: rgb(254, 245, 232);
+        height: 100%;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        font-family: "Pacifico", cursive;
+        color: #352e28;
+        isolation: isolate;
+        font-weight: bold;
+        padding-top: 5%;
+    }
+    
+    .layer {
+        position: absolute;
+        width: 20%;
+        height: 1%;
+        margin-left: 40%;
+        margin-top: 5%;
+        transition-property: 20%;
+        transition-duration: 1s;
+    }
+    
+    .layer:hover {
+        height: 8%;
+        background-color: #fbe437;
+    }
+    
+    .input1 lable {
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+    }
+    
+    .input1 button {
+        margin-left: 40%;
+        width: 11%;
+        height: 7%;
+        margin-bottom: 2%;
+    }
+    
+    .container {
+        overflow: hidden;
+        padding-left: 30%;
+    }
+    
+    .container i {
+        float: left;
+        color: #3ca55c;
+        padding-top: 28px;
+        margin-top: 20%;
+    }
+    
+    .container h2 {
+        float: left;
+        font-size: 28px;
+        background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        padding-left: 4px;
+        padding-right: 4px;
+        margin-top: 23%;
+    }
+    
+    .input1 input {
+        width: 80%;
+        height: 40px;
+        margin-left: 10%;
+        border-color: red;
+    }
+    
+    .input1 i {
+        margin-left: 10%;
+    }
+    
+    .table {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
